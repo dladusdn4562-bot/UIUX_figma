@@ -1,0 +1,24 @@
+header{
+    height: 86px;
+    background-color: #c2c2c2;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color: bisque;
+    
+}
+h1{
+    background-color: burlywood;
+}
+.use-box {
+    background-color: coral;
+}
+main {
+    height: 400vh;
+    background-color: #d3d3d3;
+}
+footer {
+    height: 68px;
+    background-color: #fffefe;
+}
