@@ -1,0 +1,29 @@
+main {
+    padding-top: 50px; padding-bottom: 60; 
+    padding-left: 90px; padding-right: 90px;
+    height: 200vh;
+}
+.sct01 {
+    width: 1600px; height: 560px;
+    border-radius: 40px;
+    display: flex;
+}
+.sct01-1 {
+    background-color: #cec1a8;
+    width: 838px;
+    border-top-left-radius: 40px; border-bottom-left-radius: 40px;
+}
+.sct01-2 {
+    background-color: #acacac;
+    width: 838px;
+    border-top-right-radius: 40px; border-bottom-right-radius: 40px;
+}
+.sct02-1{
+
+}
+.sct02-1{
+    
+}
+.sct02-1{
+    
+}
