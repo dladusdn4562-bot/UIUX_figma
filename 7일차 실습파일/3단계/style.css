@@ -18,12 +18,19 @@ main {
     width: 838px;
     border-top-right-radius: 40px; border-bottom-right-radius: 40px;
 }
-.sct02-1{
-
+.sct02 {
+    display: flex;
 }
 .sct02-1{
-    
+    border: 1px solid black;
+    width: 526px;
+    height: 326px;
 }
-.sct02-1{
-    
+.sct02-2{
+    width: 526px;
+    height: 326px;
+}
+.sct02-3{
+    width: 526px;
+    height: 326px;
 }
