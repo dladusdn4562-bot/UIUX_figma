@@ -34,6 +34,34 @@ main {
     background-color: #551e1e;
     flex-grow: 1;
 }
+.sct-02 {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.sct02-left {
+    background-color: rgb(255, 226, 164);
+    width: 878px;
+    height: 500px;
+}
+.sct02-right {
+    width: 878px;
+    height: 500px;
+    background-color: #d39435;
+}
+.sct-03 {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    /* height: 600px;
+    align-content:space-between ; */
+    row-gap:20px ;
+}
+.sct03-li {
+    border: 1px solid orange;
+    width: 427px; height: 246px;
+}
 footer {
     border-bottom: 2px solid #919191;
     height: 68px;
