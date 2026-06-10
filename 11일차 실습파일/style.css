@@ -1,0 +1,39 @@
+.main {
+    padding: 64px 0 ;
+    gap: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.sct-top {
+    padding: 0 45px;
+    display: flex;
+    gap: 10px;
+}
+.tbox {
+    background: #D2DEFF;
+    height: 740px;
+}
+.tbox-01, .tbox-02, .tbox-03 {
+    flex-grow: 1;
+}
+.sct-bottom {
+    padding: 0 125px;
+    gap: 60px;
+    display: flex;
+}
+.bbox {
+    background: #BFDEE2;
+    height: 580px;
+}
+.bbox1, .bbox2{
+    flex-grow: 1;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #979797;
+    border-radius: 12px;
+    padding: 10px;
+    width: fit-content;
+}
