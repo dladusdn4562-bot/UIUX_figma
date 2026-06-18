@@ -23,7 +23,72 @@ main {
 }
 .amp-swiper {
     border: 1px solid green;
+    display: flex;
 }
+.best-product-list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.best-product-list01 { border: 1px solid red;}
+.best-product-list02 { border: 1px solid red;}
+.best-product-list03 { border: 1px solid red;}
+.best-product-list04 { border: 1px solid red;}
+.best-img-box {
+    border: 1px solid green;
+    height: 410px;
+    background-color: #bcbab8;
+}
+.best-discount-title {
+    border: 1px solid green;
+    padding-bottom: 42px; padding-top: 40px;
+}
+.best-discount-subhead {
+    border: 1px solid green;
+    padding-bottom: 40px;
+}
+.best-price-capacity {
+    border: 1px solid green;
+    padding-top: 14px; padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.best-price {
+    border: 1px solid green;
+}
+.best-capacity {
+    border: 1px solid green;
+
+}
+.best-capacity-30 {
+    border: 1px solid green;
+}
+.best-capacity-60 {
+    border: 1px solid green;
+}
+.best-pro-btn {
+    border: 1px solid #E1DED9;
+    background: #FFF;
+    flex-grow: 1;
+    padding-top: 12px; padding-bottom:12px ;
+    color: #212529;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.06px;
+
+    /* text-transform: capitalize;
+    font-family: Raleway;
+    font-style: normal; */
+
+    transition: 0.3s;
+}
+.best-pro-btn:hover{
+    background-color:#212529 ;
+    color:#E1DED9 ;
+}
+
 footer {
     border: 1px solid red;
 }
