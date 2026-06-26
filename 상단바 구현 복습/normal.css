@@ -16,3 +16,6 @@ button {
     padding: auto;
     border: none; outline: none;
 }
+img {
+    display: block;
+}
