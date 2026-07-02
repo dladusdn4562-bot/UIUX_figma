@@ -1,0 +1,105 @@
+.top-bar {
+    border: 1px solid red;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+    position: relative;
+}
+.top-bar:hover {
+    padding-top: calc(16px + 8px);
+    padding-bottom: calc(16px + 8px);
+}
+.menu01-ul {
+    border: 1px solid orange;
+    display: flex;
+    gap: 16px;
+    width: 388px;
+}
+.mn01-item {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}
+.menu02 {
+    border: 1px solid #333;
+    height: 400px; transition: 0.5s;
+    position: absolute;
+    left: 0; right: 0; top: 100%;
+    display: flex; justify-content: center;
+}
+.menu01:hover > .menu02 {
+    height: 400px;
+}
+.menu02 > .container {
+    background-color: pink;
+    width: 1620px;
+    display: flex;
+}
+.mn02-img-box {
+    background-color: rgb(179, 226, 226);
+    width: 400px; 
+    display: flex; justify-content: center;
+    align-items: center;
+}
+.mn02-img-item {
+    background-color: yellow;
+    width: 300px; height: 300px;
+}
+.mn02-img-item > a { height: 100%;}
+.mn02-img-item img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.mn02-nav {
+    flex-grow: 1;
+    display: flex; justify-content: center;
+    align-items: center;
+}
+.mn02-nav > ul {
+    display: flex; gap: 80px;
+}
+.m02-item > a {
+    font-size: 54px; font-weight: 700;
+    color: #333;
+    transition: 0.3s;
+}
+.m02-item:hover > a {
+    color: blue;
+    text-decoration: underline;
+}
+.m02-item{position: relative;}
+.mn03-nav {
+    display: none;
+    justify-content: space-between;
+    position: absolute;
+    left: 0; right: 0; top: calc(100% + 20px);
+}
+.m02-item:hover > .mn03-nav {
+    display: flex;
+}
+.m03-item>a {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.m03-item:hover >a {
+    color: #000;
+    text-decoration: underline;
+}
+.logo-box {
+    display: flex; align-items: center;
+}
+.user-box-ul {
+    border: 1px solid orange;
+    display: flex;
+    gap: 16px;
+    width: 388px;
+    justify-content: flex-end;
+}
+.user-item {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}
