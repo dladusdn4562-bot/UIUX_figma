@@ -106,7 +106,7 @@
     transition: 0.5s;
 }
 .m03-item:hover > a {
-    color: #333;
+    color: #2b2a2a;
     text-decoration: underline;
 }
 .logo-box {
